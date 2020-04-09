@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" type="image/png" href="_imgs/favicon.ico" />
+    <link rel="Stylesheet" type="text/css" href="myStyle.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <title>Exercício 01 - PHP</title>
+</head>
+
+<body>
+    <div>
+        <form method="POST">
+            <p>
+                Nome:<br />
+                <input type="text" size="30" name="nome" class="formStyle">
+            </p>
+            <p>
+                Nota 1:<br />
+                <input type="text" size="35" name="nota01" class="formStyle">
+            </p>
+            <p>
+                Nota 2:<br />
+                <input type="text" size="35" name="nota02" class="formStyle">
+            </p>
+            <p>
+                Nota 3:<br />
+                <input type="text" size="35" name="nota03" class="formStyle">
+            </p>
+            <p>
+                <input type="submit" name="BTEnvia" value="Enviar" onclick="media();" class="formButton">
+                <input type="reset" name="BTApaga" value="Apagar" class="formButton">
+            </p>
+        </form>
+    </div>
+
+
+    <?php
+
+function media(){
+    $nome = $_POST['nome'];
+    $nota1 = $_POST['nota01'];
+    $nota2 = $_POST['nota02'];
+    $nota3 = $_POST['nota03'];
+    $media = ($nota1 + $nota2 + $nota3) / 3;
+    print ("<p>Nome:$nome \nNota: $media");
+}
+
+media();
+?>
+</body>
+
+
+</html>
