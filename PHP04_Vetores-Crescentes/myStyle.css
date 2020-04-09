@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(184, 133, 104);
+    font-family: 'Source Sans Pro', 'Sans Serif';
+    color: white;
+}
+
+h1,h3 {
+    text-align: center;
+}
+
+div.divnome{
+    text-align: center;
+}
+
+div.divnotas{
+    text-align: center;
+}
+
+.pNomeMedia{
+    font-weight: bold;
+    color: rgb(255, 196, 157);
+}
