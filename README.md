@@ -9,6 +9,7 @@
 ![Assinatura](https://user-images.githubusercontent.com/54213955/78931942-14ff5580-7a7d-11ea-923d-5f148de10721.png)
 
 Conheça mais meus projetos:
+* **[JavaScript](https://github.com/LuigiRamires/JavaScript)**
 * **[Aulas de PHP - ETEC de Guarulhos](https://github.com/LuigiRamires/Aulas_PHP)**
 * **[(Em desenvolvimento) Sistema Multifunções - ETEC de Guarulhos](https://github.com/LuigiRamires/MultiFunctions_System)**
 * **[COVID-19 Website](https://github.com/LuigiRamires/COVID19-Site)**
